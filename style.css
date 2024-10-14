@@ -139,7 +139,7 @@ nav ul li a {
 }
 
 .main2{
-    margin-top: 1rem;
+    margin-top: 0.7rem;
 }
 
 .main2 .hero-btns p{
@@ -149,3 +149,96 @@ nav ul li a {
 .main3 .hero-btns{
     top: 12rem;
 }
+.apple-items{
+    width: 100%;
+    height: 80vh;
+    padding: 0.7rem;
+    display: flex;
+    gap: 20px;
+}
+.item{
+    width: 50%;
+    height: 100%;
+    background-color: yellow;
+    position: relative;
+}
+.item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.item .item_text{
+    position: absolute;
+    z-index: 10;
+    bottom: 100px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.item .item_btns{
+    position: absolute;
+    z-index: 10;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.item_btns a{
+    text-decoration: none;
+    color: white;
+}
+.item_btns .btn1{
+    padding: 10px 18px;
+    border-radius: 30px;
+    background-color: #0071e3;
+    color: white;
+    font-size: 1.0625rem;
+    text-decoration: none;
+}
+.item_btns .btn2{
+    padding: 10px 18px;
+    border-radius: 30px;
+    border: 1px solid #0071e3;
+    color: #0071e3;
+    font-size: 1.0625rem;
+   text-decoration: none;
+}
+.item_text h1{
+    font-size: 2.7rem;
+}
+.item_text p{
+    font-size: 22px;
+    line-height: 20px;
+}
+.apple-items2{
+    padding-top: 0.2rem;
+    color: black;
+}
+.apple-items2 .item_text{
+    top: 50px;
+}
+.apple-items2 .item_btns{
+    top: 150px;
+}
+.apple-items2 .item_text2{
+    color: white;
+}
+
+.apple-items .item_text img{
+    width: 20%;
+    /* height: 50%; */
+    object-fit: cover;
+}
+.item_text3 p{
+     line-height: 1.2;
+     margin-top: 0.4rem
+}
+.apple-items3 .item .item_btns3{
+   top: 180px;
+}
+.apple-items3 .item .item_btns4{
+    top: 165px;
+ }
+  
